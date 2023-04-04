@@ -23,8 +23,8 @@ func main() {
 			zipCode: 940121,
 		},
 	}
-	//jimPointer := &jim
-	jim.updateName("Max")
+	jimPointer := &jim
+	jimPointer.updateName("Max")
 	jim.print()
 }
 
