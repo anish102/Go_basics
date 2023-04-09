@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// interface function
 type bot interface {
 	getGreeting() string
 }
@@ -13,6 +14,7 @@ func main() {
 	eb := englishBot{}
 	sb := spanishBot{}
 
+	// Two logically equivalent function
 	printGreeting(eb)
 	printGreeting(sb)
 }
